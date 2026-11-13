@@ -15,6 +15,23 @@ REQUIRE_GITHUB_AUTH = "true"
 STRICT_HOST_KEY_VERIFY = "true"
 # ...
 
+# ...
+[observability.logs]
+enabled = true
+head_sampling_rate = 1
+invocation_logs = true
+persist = true
+
+[observability.traces]
+enabled = true
+head_sampling_rate = 1
+persist = true
+
+[observability.issue_detection]
+enabled = false
+# ...
+
+
 
 # 构建监视路径：仅源代码变动时触发重新构建
 [build]
