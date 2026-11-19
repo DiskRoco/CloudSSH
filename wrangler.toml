@@ -6,7 +6,7 @@ preview_urls = false
 
 # ...
 [vars]
-BASE_URL = "https://tty.hk"
+BASE_URL = "https://ssh.tty.hk"
 DEBUG_MODE = "false"
 ENABLE_SSH_SHARING = "true"
 GITHUB_ALLOWED_USER_IDS = "64766274"
